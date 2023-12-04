@@ -24,19 +24,29 @@
 17. 한 명의 사용자는 여러 개의 플레이리스트를 갖는다.
 
 ### 3. ER Diagram 작성
+
 ![image](https://github.com/hajimin1/Music_DB_Project/assets/81867274/633755d1-95e4-4065-b9b7-40410487ae93)
 
+
 ### 4. Relation Schema 생성
+
 ![image](https://github.com/hajimin1/Music_DB_Project/assets/81867274/a0d34360-dcc8-4d09-bbef-91d548601862)
 
+
 ### 5. Normalization
+
 - Before Normalization
+
 ![image](https://github.com/hajimin1/Music_DB_Project/assets/81867274/1f01c531-012b-4ed2-824d-86d0ab9d6119)
 
+
 - Normalization
+
 ![image](https://github.com/hajimin1/Music_DB_Project/assets/81867274/5b17e0e6-4977-4faa-ba30-ab0ef8ea31bc)
 
 2NF(fully functionally dependent on the primary key), 3NF(Transitive functional dependency 제거)를 만족한다.
 
+
 - Note Foreign Key
+  
 ![image](https://github.com/hajimin1/Music_DB_Project/assets/81867274/ee447458-5f6c-4929-af2d-06716d6d954e)
